@@ -1,5 +1,5 @@
-function Ex02_Random(min, max) {   
-
-    return min+Math.random()*(max-min);
+function random(min,max){
+    return Math.random()*(max-min)+min;
 }
-module.exports = Ex02_Random;
+module.exports = random;
+// console.log(random(0,10));
